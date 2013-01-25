@@ -31,7 +31,13 @@ Or install it yourself as:
 
 ## Example
 
-    
+    <%= zip_code.to_region %>
+    <%= zip_code.to_region(:state => true) %>
+    <%= zip_code.to_region(:district => true) %>
+    <%= zip_code.to_region(:country => true) %>
+    <%= zip_code.to_region(:lat => true) %>
+    <%= zip_code.to_region(:log => true) %>
+    <%= zip_code.to_region(:state_code => true) %>
 
 ## Usage
 
