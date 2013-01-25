@@ -23,4 +23,12 @@ class String
     @region || nil
   end
 
+  def to_zip
+    @zip_codes = []
+    Geoinfo::ZIP_CODES.each do |row|
+      @zip_codes.push(row[1]) if row[2].chomp == self.chomp
+    end
+    @zip_codes.length == 1 ? @zip_codes.first : @zip_codes
+  end
+
 end
