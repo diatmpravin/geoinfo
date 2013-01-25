@@ -1,6 +1,8 @@
 # Geoinfo
 
-TODO: Write a gem description
+GeoInfo gem offers comprehensive and reliable databases of localities and zip codes for numerous state of india.
+Such data may be integrated to professional software, websites, may be used to generate statistics and to various
+other ends. Gem will provide localities, administrative subdivisions, state and geographical coordinates.
 
 ## Installation
 
