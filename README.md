@@ -54,7 +54,10 @@ Or install it yourself as:
     '713301'.to_region(:lat => true) #=> 23.6306
     '713301'.to_region(:log => true) #=> 87.1196
     
-
+### Convert a place to a zip code
+    'Asansol Bazar'.to_region.to_zip #=> 713301 
+    'Mahil Gaila'.to_region.to_zip #=> 144506
+ 
 ## Contributing
 
 1. Fork it
