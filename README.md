@@ -41,7 +41,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Convert a zip code to a place
+
+    '713301'.to_region #=> Asansol Bazar
+    '713301'.to_region(:state => true) #=> West Bengal 
+    '713301'.to_region(:district => true) #=> Burdwan
+    '713301'.to_region(:country => true) #=> India
+    '713301'.to_region(:lat => true) #=> 23.6306
+    '713301'.to_region(:log => true) #=> 87.1196
+    '713301'.to_region(:state_code => true) #=> WB
 
 ## Contributing
 
