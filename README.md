@@ -6,13 +6,13 @@ other ends. Gem will provide localities, administrative subdivisions, state and 
 
 ### This gem allows you to perform the following conversions:
 
-A zipcode to a place
-A zipcode to a country
-A zipcode to a state
-A zipcode to a state code
-A zipcode to a district
-A zipcode to a Latitude
-A zipcode to a Longitude
+    A zipcode to a place
+    A zipcode to a country
+    A zipcode to a state
+    A zipcode to a state code
+    A zipcode to a district
+    A zipcode to a Latitude
+    A zipcode to a Longitude
 
 
 ## Installation
