@@ -47,9 +47,13 @@ Or install it yourself as:
     '713301'.to_region(:state => true) #=> West Bengal 
     '713301'.to_region(:district => true) #=> Burdwan
     '713301'.to_region(:country => true) #=> India
+    '713301'.to_region(:state_code => true) #=> WB
+    
+### Convert a zip code to a STATE    
+    
     '713301'.to_region(:lat => true) #=> 23.6306
     '713301'.to_region(:log => true) #=> 87.1196
-    '713301'.to_region(:state_code => true) #=> WB
+    
 
 ## Contributing
 
