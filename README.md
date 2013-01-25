@@ -4,6 +4,17 @@ GeoInfo gem offers comprehensive and reliable databases of localities and zip co
 Such data may be integrated to professional software, websites, may be used to generate statistics and to various
 other ends. Gem will provide localities, administrative subdivisions, state and geographical coordinates.
 
+### This gem allows you to perform the following conversions:
+
+A zipcode to a place
+A zipcode to a country
+A zipcode to a state
+A zipcode to a state code
+A zipcode to a district
+A zipcode to a Latitude
+A zipcode to a Longitude
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -17,6 +28,10 @@ And then execute:
 Or install it yourself as:
 
     $ gem install geoinfo
+
+## Example
+
+    
 
 ## Usage
 
