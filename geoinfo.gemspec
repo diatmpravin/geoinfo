@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Geoinfo::VERSION
   gem.authors       = ["Pravin Mishra"]
   gem.email         = ["diatm.pravin.it.07.27@gmail.com"]
-  gem.description   = %q{find geo info}
-  gem.summary       = %q{find geo info}
+  gem.description   = %q{GeoInfo gem offers comprehensive and reliable databases of localities and zip codes for numerous state of india. Such data may be integrated to professional software, websites, may be used to generate statistics and to various other ends. Gem will provide localities, administrative subdivisions, state and geographical coordinates.}
+  gem.summary       = %q{GeoInfo gem offers comprehensive and reliable databases of localities and zip codes for numerous state of india. Such data may be integrated to professional software, websites, may be used to generate statistics and to various other ends. Gem will provide localities, administrative subdivisions, state and geographical coordinates.}
   gem.homepage      = "https://github.com/diatmpravin/geoinfo.git"
 
   gem.files         = `git ls-files`.split($/)
