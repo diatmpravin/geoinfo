@@ -4,6 +4,9 @@ GeoInfo gem offers comprehensive and reliable databases of localities and zip co
 Such data may be integrated to professional software, websites, may be used to generate statistics and to various
 other ends. Gem will provide localities, administrative subdivisions, state and geographical coordinates.
 
+### Demo application at https://github.com/diatmpravin/geoinf-demo
+    (follow readme for installation steps)
+
 ### This gem allows you to perform the following conversions:
 
     A zipcode to a place
